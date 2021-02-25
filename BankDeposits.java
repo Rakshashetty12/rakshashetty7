@@ -50,7 +50,7 @@ class BankDeposits
 		Bank obj=new Bank(name,actno,bamt);
 		do
 		{
-			int a,b;
+			int x,y;
 			System.out.println("**********MENU*************");
 			System.out.println("1.Deposits");
 			System.out.println("2.Withdraw");
@@ -61,11 +61,11 @@ class BankDeposits
 			{
 				case 1:System.out.println("amount desposited");
 					a=Integer.parseInt(in.readLine());
-					obj.deposit(a);
+					obj.deposit(x);
 					break;
 				case 2:System.out.println("amount withdraw");
 					b=Integer.parseInt(in.readLine());
-					obj.withdraw(b);
+					obj.withdraw(y);
 					break;
 				case 3:obj.display();
 					break;
