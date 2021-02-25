@@ -55,7 +55,7 @@ public class RevFibo
 			default:System.out.println("please enter valid input");
 		}
 	}
-	while(ch>=1&&ch<=4);
+	while(ch>=1&&ch<=3);
 	}
 }	
 	                                                                                                                                                                                  
