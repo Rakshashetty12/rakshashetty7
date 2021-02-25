@@ -60,11 +60,11 @@ class BankDeposits
 			switch(ch)
 			{
 				case 1:System.out.println("amount desposited");
-					a=Integer.parseInt(in.readLine());
+					x=Integer.parseInt(in.readLine());
 					obj.deposit(x);
 					break;
 				case 2:System.out.println("amount withdraw");
-					b=Integer.parseInt(in.readLine());
+					y=Integer.parseInt(in.readLine());
 					obj.withdraw(y);
 					break;
 				case 3:obj.display();
